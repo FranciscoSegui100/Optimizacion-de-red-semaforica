@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-09T02:03:51.495086+00:00 by Eclipse SUMO netconvert 1.28.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="/home/claude/sep/semaforos_4intersecciones/red/subred4.nod.xml"/>
+        <edge-files value="/home/claude/sep/semaforos_4intersecciones/red/subred4.edg.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/claude/sep/semaforos_4intersecciones/red/subred4.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <tls_building>
+        <tls.green.time value="42"/>
+        <tls.yellow.time value="3"/>
+        <tls.default-type value="static"/>
+    </tls_building>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.join value="false"/>
+    </junctions>
+
+</netconvertConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="150.00,150.00" convBoundary="0.00,0.00,420.00,420.00" origBoundary="-150.00,-150.00,270.00,270.00" projParameter="!"/>
+
+    <edge id=":J_SM_ESP_0" function="internal">
+        <lane id=":J_SM_ESP_0_0" index="0" speed="6.51" length="9.03" shape="145.20,157.20 144.85,154.75 143.80,153.00 142.05,151.95 139.60,151.60"/>
+    </edge>
+    <edge id=":J_SM_ESP_1" function="internal">
+        <lane id=":J_SM_ESP_1_0" index="0" speed="13.89" length="14.40" shape="145.20,157.20 145.20,142.80"/>
+        <lane id=":J_SM_ESP_1_1" index="1" speed="13.89" length="14.40" shape="148.40,157.20 148.40,142.80"/>
+    </edge>
+    <edge id=":J_SM_ESP_3" function="internal">
+        <lane id=":J_SM_ESP_3_0" index="0" speed="8.67" length="3.71" shape="148.40,157.20 149.11,153.56"/>
+    </edge>
+    <edge id=":J_SM_ESP_14" function="internal">
+        <lane id=":J_SM_ESP_14_0" index="0" speed="8.67" length="13.14" shape="149.11,153.56 149.15,153.35 151.40,150.60 155.15,148.95 160.40,148.40"/>
+    </edge>
+    <edge id=":J_SM_ESP_4" function="internal">
+        <lane id=":J_SM_ESP_4_0" index="0" speed="6.51" length="9.03" shape="160.40,151.60 157.95,151.95 156.20,153.00 155.15,154.75 154.80,157.20"/>
+    </edge>
+    <edge id=":J_SM_ESP_5" function="internal">
+        <lane id=":J_SM_ESP_5_0" index="0" speed="11.11" length="20.80" shape="160.40,151.60 139.60,151.60"/>
+    </edge>
+    <edge id=":J_SM_ESP_6" function="internal">
+        <lane id=":J_SM_ESP_6_0" index="0" speed="8.67" length="5.56" shape="160.40,151.60 155.15,151.05 154.89,150.94"/>
+    </edge>
+    <edge id=":J_SM_ESP_15" function="internal">
+        <lane id=":J_SM_ESP_15_0" index="0" speed="8.67" length="11.29" shape="154.89,150.94 151.40,149.40 149.15,146.65 148.40,142.80"/>
+    </edge>
+    <edge id=":J_SM_ESP_7" function="internal">
+        <lane id=":J_SM_ESP_7_0" index="0" speed="6.51" length="9.03" shape="154.80,142.80 155.15,145.25 156.20,147.00 157.95,148.05 160.40,148.40"/>
+    </edge>
+    <edge id=":J_SM_ESP_8" function="internal">
+        <lane id=":J_SM_ESP_8_0" index="0" speed="13.89" length="14.40" shape="154.80,142.80 154.80,157.20"/>
+        <lane id=":J_SM_ESP_8_1" index="1" speed="13.89" length="14.40" shape="151.60,142.80 151.60,157.20"/>
+    </edge>
+    <edge id=":J_SM_ESP_10" function="internal">
+        <lane id=":J_SM_ESP_10_0" index="0" speed="8.67" length="3.71" shape="151.60,142.80 150.89,146.44"/>
+    </edge>
+    <edge id=":J_SM_ESP_16" function="internal">
+        <lane id=":J_SM_ESP_16_0" index="0" speed="8.67" length="13.14" shape="150.89,146.44 150.85,146.65 148.60,149.40 144.85,151.05 139.60,151.60"/>
+    </edge>
+    <edge id=":J_SM_ESP_11" function="internal">
+        <lane id=":J_SM_ESP_11_0" index="0" speed="6.51" length="9.03" shape="139.60,148.40 142.05,148.05 143.80,147.00 144.85,145.25 145.20,142.80"/>
+    </edge>
+    <edge id=":J_SM_ESP_12" function="internal">
+        <lane id=":J_SM_ESP_12_0" index="0" speed="11.11" length="20.80" shape="139.60,148.40 160.40,148.40"/>
+    </edge>
+    <edge id=":J_SM_ESP_13" function="internal">
+        <lane id=":J_SM_ESP_13_0" index="0" speed="8.67" length="5.56" shape="139.60,148.40 144.85,148.95 145.11,149.06"/>
+    </edge>
+    <edge id=":J_SM_ESP_17" function="internal">
+        <lane id=":J_SM_ESP_17_0" index="0" speed="8.67" length="11.29" shape="145.11,149.06 148.60,150.60 150.85,153.35 151.60,157.20"/>
+    </edge>
+    <edge id=":J_SM_RSP_0" function="internal">
+        <lane id=":J_SM_RSP_0_0" index="0" speed="6.51" length="9.03" shape="145.20,277.20 144.85,274.75 143.80,273.00 142.05,271.95 139.60,271.60"/>
+    </edge>
+    <edge id=":J_SM_RSP_1" function="internal">
+        <lane id=":J_SM_RSP_1_0" index="0" speed="13.89" length="14.40" shape="145.20,277.20 145.20,262.80"/>
+        <lane id=":J_SM_RSP_1_1" index="1" speed="13.89" length="14.40" shape="148.40,277.20 148.40,262.80"/>
+    </edge>
+    <edge id=":J_SM_RSP_3" function="internal">
+        <lane id=":J_SM_RSP_3_0" index="0" speed="8.67" length="3.71" shape="148.40,277.20 149.11,273.56"/>
+    </edge>
+    <edge id=":J_SM_RSP_14" function="internal">
+        <lane id=":J_SM_RSP_14_0" index="0" speed="8.67" length="13.14" shape="149.11,273.56 149.15,273.35 151.40,270.60 155.15,268.95 160.40,268.40"/>
+    </edge>
+    <edge id=":J_SM_RSP_4" function="internal">
+        <lane id=":J_SM_RSP_4_0" index="0" speed="6.51" length="9.03" shape="160.40,271.60 157.95,271.95 156.20,273.00 155.15,274.75 154.80,277.20"/>
+    </edge>
+    <edge id=":J_SM_RSP_5" function="internal">
+        <lane id=":J_SM_RSP_5_0" index="0" speed="11.11" length="20.80" shape="160.40,271.60 139.60,271.60"/>
+    </edge>
+    <edge id=":J_SM_RSP_6" function="internal">
+        <lane id=":J_SM_RSP_6_0" index="0" speed="8.67" length="5.56" shape="160.40,271.60 155.15,271.05 154.89,270.94"/>
+    </edge>
+    <edge id=":J_SM_RSP_15" function="internal">
+        <lane id=":J_SM_RSP_15_0" index="0" speed="8.67" length="11.29" shape="154.89,270.94 151.40,269.40 149.15,266.65 148.40,262.80"/>
+    </edge>
+    <edge id=":J_SM_RSP_7" function="internal">
+        <lane id=":J_SM_RSP_7_0" index="0" speed="6.51" length="9.03" shape="154.80,262.80 155.15,265.25 156.20,267.00 157.95,268.05 160.40,268.40"/>
+    </edge>
+    <edge id=":J_SM_RSP_8" function="internal">
+        <lane id=":J_SM_RSP_8_0" index="0" speed="13.89" length="14.40" shape="154.80,262.80 154.80,277.20"/>
+        <lane id=":J_SM_RSP_8_1" index="1" speed="13.89" length="14.40" shape="151.60,262.80 151.60,277.20"/>
+    </edge>
+    <edge id=":J_SM_RSP_10" function="internal">
+        <lane id=":J_SM_RSP_10_0" index="0" speed="8.67" length="3.71" shape="151.60,262.80 150.89,266.44"/>
+    </edge>
+    <edge id=":J_SM_RSP_16" function="internal">
+        <lane id=":J_SM_RSP_16_0" index="0" speed="8.67" length="13.14" shape="150.89,266.44 150.85,266.65 148.60,269.40 144.85,271.05 139.60,271.60"/>
+    </edge>
+    <edge id=":J_SM_RSP_11" function="internal">
+        <lane id=":J_SM_RSP_11_0" index="0" speed="6.51" length="9.03" shape="139.60,268.40 142.05,268.05 143.80,267.00 144.85,265.25 145.20,262.80"/>
+    </edge>
+    <edge id=":J_SM_RSP_12" function="internal">
+        <lane id=":J_SM_RSP_12_0" index="0" speed="11.11" length="20.80" shape="139.60,268.40 160.40,268.40"/>
+    </edge>
+    <edge id=":J_SM_RSP_13" function="internal">
+        <lane id=":J_SM_RSP_13_0" index="0" speed="8.67" length="5.56" shape="139.60,268.40 144.85,268.95 145.11,269.06"/>
+    </edge>
+    <edge id=":J_SM_RSP_17" function="internal">
+        <lane id=":J_SM_RSP_17_0" index="0" speed="8.67" length="11.29" shape="145.11,269.06 148.60,270.60 150.85,273.35 151.60,277.20"/>
+    </edge>
+    <edge id=":J_TB_ESP_0" function="internal">
+        <lane id=":J_TB_ESP_0_0" index="0" speed="6.51" length="9.03" shape="268.40,157.20 268.05,154.75 267.00,153.00 265.25,151.95 262.80,151.60"/>
+    </edge>
+    <edge id=":J_TB_ESP_1" function="internal">
+        <lane id=":J_TB_ESP_1_0" index="0" speed="11.11" length="14.40" shape="268.40,157.20 268.40,142.80"/>
+    </edge>
+    <edge id=":J_TB_ESP_2" function="internal">
+        <lane id=":J_TB_ESP_2_0" index="0" speed="8.00" length="4.07" shape="268.40,157.20 268.95,153.35 269.04,153.20"/>
+    </edge>
+    <edge id=":J_TB_ESP_12" function="internal">
+        <lane id=":J_TB_ESP_12_0" index="0" speed="8.00" length="10.13" shape="269.04,153.20 270.60,150.60 273.35,148.95 277.20,148.40"/>
+    </edge>
+    <edge id=":J_TB_ESP_3" function="internal">
+        <lane id=":J_TB_ESP_3_0" index="0" speed="6.51" length="9.03" shape="277.20,151.60 274.75,151.95 273.00,153.00 271.95,154.75 271.60,157.20"/>
+    </edge>
+    <edge id=":J_TB_ESP_4" function="internal">
+        <lane id=":J_TB_ESP_4_0" index="0" speed="11.11" length="14.40" shape="277.20,151.60 262.80,151.60"/>
+    </edge>
+    <edge id=":J_TB_ESP_5" function="internal">
+        <lane id=":J_TB_ESP_5_0" index="0" speed="8.00" length="4.07" shape="277.20,151.60 273.35,151.05 273.20,150.96"/>
+    </edge>
+    <edge id=":J_TB_ESP_13" function="internal">
+        <lane id=":J_TB_ESP_13_0" index="0" speed="8.00" length="10.13" shape="273.20,150.96 270.60,149.40 268.95,146.65 268.40,142.80"/>
+    </edge>
+    <edge id=":J_TB_ESP_6" function="internal">
+        <lane id=":J_TB_ESP_6_0" index="0" speed="6.51" length="9.03" shape="271.60,142.80 271.95,145.25 273.00,147.00 274.75,148.05 277.20,148.40"/>
+    </edge>
+    <edge id=":J_TB_ESP_7" function="internal">
+        <lane id=":J_TB_ESP_7_0" index="0" speed="11.11" length="14.40" shape="271.60,142.80 271.60,157.20"/>
+    </edge>
+    <edge id=":J_TB_ESP_8" function="internal">
+        <lane id=":J_TB_ESP_8_0" index="0" speed="8.00" length="4.07" shape="271.60,142.80 271.05,146.65 270.96,146.80"/>
+    </edge>
+    <edge id=":J_TB_ESP_14" function="internal">
+        <lane id=":J_TB_ESP_14_0" index="0" speed="8.00" length="10.13" shape="270.96,146.80 269.40,149.40 266.65,151.05 262.80,151.60"/>
+    </edge>
+    <edge id=":J_TB_ESP_9" function="internal">
+        <lane id=":J_TB_ESP_9_0" index="0" speed="6.51" length="9.03" shape="262.80,148.40 265.25,148.05 267.00,147.00 268.05,145.25 268.40,142.80"/>
+    </edge>
+    <edge id=":J_TB_ESP_10" function="internal">
+        <lane id=":J_TB_ESP_10_0" index="0" speed="11.11" length="14.40" shape="262.80,148.40 277.20,148.40"/>
+    </edge>
+    <edge id=":J_TB_ESP_11" function="internal">
+        <lane id=":J_TB_ESP_11_0" index="0" speed="8.00" length="4.07" shape="262.80,148.40 266.65,148.95 266.80,149.04"/>
+    </edge>
+    <edge id=":J_TB_ESP_15" function="internal">
+        <lane id=":J_TB_ESP_15_0" index="0" speed="8.00" length="10.13" shape="266.80,149.04 269.40,150.60 271.05,153.35 271.60,157.20"/>
+    </edge>
+    <edge id=":J_TB_RSP_0" function="internal">
+        <lane id=":J_TB_RSP_0_0" index="0" speed="6.51" length="9.03" shape="268.40,277.20 268.05,274.75 267.00,273.00 265.25,271.95 262.80,271.60"/>
+    </edge>
+    <edge id=":J_TB_RSP_1" function="internal">
+        <lane id=":J_TB_RSP_1_0" index="0" speed="11.11" length="14.40" shape="268.40,277.20 268.40,262.80"/>
+    </edge>
+    <edge id=":J_TB_RSP_2" function="internal">
+        <lane id=":J_TB_RSP_2_0" index="0" speed="8.00" length="4.07" shape="268.40,277.20 268.95,273.35 269.04,273.20"/>
+    </edge>
+    <edge id=":J_TB_RSP_12" function="internal">
+        <lane id=":J_TB_RSP_12_0" index="0" speed="8.00" length="10.13" shape="269.04,273.20 270.60,270.60 273.35,268.95 277.20,268.40"/>
+    </edge>
+    <edge id=":J_TB_RSP_3" function="internal">
+        <lane id=":J_TB_RSP_3_0" index="0" speed="6.51" length="9.03" shape="277.20,271.60 274.75,271.95 273.00,273.00 271.95,274.75 271.60,277.20"/>
+    </edge>
+    <edge id=":J_TB_RSP_4" function="internal">
+        <lane id=":J_TB_RSP_4_0" index="0" speed="11.11" length="14.40" shape="277.20,271.60 262.80,271.60"/>
+    </edge>
+    <edge id=":J_TB_RSP_5" function="internal">
+        <lane id=":J_TB_RSP_5_0" index="0" speed="8.00" length="4.07" shape="277.20,271.60 273.35,271.05 273.20,270.96"/>
+    </edge>
+    <edge id=":J_TB_RSP_13" function="internal">
+        <lane id=":J_TB_RSP_13_0" index="0" speed="8.00" length="10.13" shape="273.20,270.96 270.60,269.40 268.95,266.65 268.40,262.80"/>
+    </edge>
+    <edge id=":J_TB_RSP_6" function="internal">
+        <lane id=":J_TB_RSP_6_0" index="0" speed="6.51" length="9.03" shape="271.60,262.80 271.95,265.25 273.00,267.00 274.75,268.05 277.20,268.40"/>
+    </edge>
+    <edge id=":J_TB_RSP_7" function="internal">
+        <lane id=":J_TB_RSP_7_0" index="0" speed="11.11" length="14.40" shape="271.60,262.80 271.60,277.20"/>
+    </edge>
+    <edge id=":J_TB_RSP_8" function="internal">
+        <lane id=":J_TB_RSP_8_0" index="0" speed="8.00" length="4.07" shape="271.60,262.80 271.05,266.65 270.96,266.80"/>
+    </edge>
+    <edge id=":J_TB_RSP_14" function="internal">
+        <lane id=":J_TB_RSP_14_0" index="0" speed="8.00" length="10.13" shape="270.96,266.80 269.40,269.40 266.65,271.05 262.80,271.60"/>
+    </edge>
+    <edge id=":J_TB_RSP_9" function="internal">
+        <lane id=":J_TB_RSP_9_0" index="0" speed="6.51" length="9.03" shape="262.80,268.40 265.25,268.05 267.00,267.00 268.05,265.25 268.40,262.80"/>
+    </edge>
+    <edge id=":J_TB_RSP_10" function="internal">
+        <lane id=":J_TB_RSP_10_0" index="0" speed="11.11" length="14.40" shape="262.80,268.40 277.20,268.40"/>
+    </edge>
+    <edge id=":J_TB_RSP_11" function="internal">
+        <lane id=":J_TB_RSP_11_0" index="0" speed="8.00" length="4.07" shape="262.80,268.40 266.65,268.95 266.80,269.04"/>
+    </edge>
+    <edge id=":J_TB_RSP_15" function="internal">
+        <lane id=":J_TB_RSP_15_0" index="0" speed="8.00" length="10.13" shape="266.80,269.04 269.40,270.60 271.05,273.35 271.60,277.20"/>
+    </edge>
+
+    <edge id="E_ESP__J_TB_ESP" from="E_ESP" to="J_TB_ESP" name="España" priority="2">
+        <lane id="E_ESP__J_TB_ESP_0" index="0" speed="11.11" length="142.80" shape="420.00,151.60 277.20,151.60"/>
+    </edge>
+    <edge id="E_RSP__J_TB_RSP" from="E_RSP" to="J_TB_RSP" name="Roque Sáenz Peña" priority="2">
+        <lane id="E_RSP__J_TB_RSP_0" index="0" speed="11.11" length="142.80" shape="420.00,271.60 277.20,271.60"/>
+    </edge>
+    <edge id="J_SM_ESP__J_SM_RSP" from="J_SM_ESP" to="J_SM_RSP" name="San Martín" priority="3">
+        <lane id="J_SM_ESP__J_SM_RSP_0" index="0" speed="13.89" length="105.60" shape="154.80,157.20 154.80,262.80"/>
+        <lane id="J_SM_ESP__J_SM_RSP_1" index="1" speed="13.89" length="105.60" shape="151.60,157.20 151.60,262.80"/>
+    </edge>
+    <edge id="J_SM_ESP__J_TB_ESP" from="J_SM_ESP" to="J_TB_ESP" name="España" priority="2">
+        <lane id="J_SM_ESP__J_TB_ESP_0" index="0" speed="11.11" length="102.40" shape="160.40,148.40 262.80,148.40"/>
+    </edge>
+    <edge id="J_SM_ESP__S_SM" from="J_SM_ESP" to="S_SM" name="San Martín" priority="3">
+        <lane id="J_SM_ESP__S_SM_0" index="0" speed="13.89" length="142.80" shape="145.20,142.80 145.20,0.00"/>
+        <lane id="J_SM_ESP__S_SM_1" index="1" speed="13.89" length="142.80" shape="148.40,142.80 148.40,0.00"/>
+    </edge>
+    <edge id="J_SM_ESP__W_ESP" from="J_SM_ESP" to="W_ESP" name="España" priority="2">
+        <lane id="J_SM_ESP__W_ESP_0" index="0" speed="11.11" length="139.60" shape="139.60,151.60 0.00,151.60"/>
+    </edge>
+    <edge id="J_SM_RSP__J_SM_ESP" from="J_SM_RSP" to="J_SM_ESP" name="San Martín" priority="3">
+        <lane id="J_SM_RSP__J_SM_ESP_0" index="0" speed="13.89" length="105.60" shape="145.20,262.80 145.20,157.20"/>
+        <lane id="J_SM_RSP__J_SM_ESP_1" index="1" speed="13.89" length="105.60" shape="148.40,262.80 148.40,157.20"/>
+    </edge>
+    <edge id="J_SM_RSP__J_TB_RSP" from="J_SM_RSP" to="J_TB_RSP" name="Roque Sáenz Peña" priority="2">
+        <lane id="J_SM_RSP__J_TB_RSP_0" index="0" speed="11.11" length="102.40" shape="160.40,268.40 262.80,268.40"/>
+    </edge>
+    <edge id="J_SM_RSP__N_SM" from="J_SM_RSP" to="N_SM" name="San Martín" priority="3">
+        <lane id="J_SM_RSP__N_SM_0" index="0" speed="13.89" length="142.80" shape="154.80,277.20 154.80,420.00"/>
+        <lane id="J_SM_RSP__N_SM_1" index="1" speed="13.89" length="142.80" shape="151.60,277.20 151.60,420.00"/>
+    </edge>
+    <edge id="J_SM_RSP__W_RSP" from="J_SM_RSP" to="W_RSP" name="Roque Sáenz Peña" priority="2">
+        <lane id="J_SM_RSP__W_RSP_0" index="0" speed="11.11" length="139.60" shape="139.60,271.60 0.00,271.60"/>
+    </edge>
+    <edge id="J_TB_ESP__E_ESP" from="J_TB_ESP" to="E_ESP" name="España" priority="2">
+        <lane id="J_TB_ESP__E_ESP_0" index="0" speed="11.11" length="142.80" shape="277.20,148.40 420.00,148.40"/>
+    </edge>
+    <edge id="J_TB_ESP__J_SM_ESP" from="J_TB_ESP" to="J_SM_ESP" name="España" priority="2">
+        <lane id="J_TB_ESP__J_SM_ESP_0" index="0" speed="11.11" length="102.40" shape="262.80,151.60 160.40,151.60"/>
+    </edge>
+    <edge id="J_TB_ESP__J_TB_RSP" from="J_TB_ESP" to="J_TB_RSP" name="Taboada" priority="2">
+        <lane id="J_TB_ESP__J_TB_RSP_0" index="0" speed="11.11" length="105.60" shape="271.60,157.20 271.60,262.80"/>
+    </edge>
+    <edge id="J_TB_ESP__S_TB" from="J_TB_ESP" to="S_TB" name="Taboada" priority="2">
+        <lane id="J_TB_ESP__S_TB_0" index="0" speed="11.11" length="142.80" shape="268.40,142.80 268.40,0.00"/>
+    </edge>
+    <edge id="J_TB_RSP__E_RSP" from="J_TB_RSP" to="E_RSP" name="Roque Sáenz Peña" priority="2">
+        <lane id="J_TB_RSP__E_RSP_0" index="0" speed="11.11" length="142.80" shape="277.20,268.40 420.00,268.40"/>
+    </edge>
+    <edge id="J_TB_RSP__J_SM_RSP" from="J_TB_RSP" to="J_SM_RSP" name="Roque Sáenz Peña" priority="2">
+        <lane id="J_TB_RSP__J_SM_RSP_0" index="0" speed="11.11" length="102.40" shape="262.80,271.60 160.40,271.60"/>
+    </edge>
+    <edge id="J_TB_RSP__J_TB_ESP" from="J_TB_RSP" to="J_TB_ESP" name="Taboada" priority="2">
+        <lane id="J_TB_RSP__J_TB_ESP_0" index="0" speed="11.11" length="105.60" shape="268.40,262.80 268.40,157.20"/>
+    </edge>
+    <edge id="J_TB_RSP__N_TB" from="J_TB_RSP" to="N_TB" name="Taboada" priority="2">
+        <lane id="J_TB_RSP__N_TB_0" index="0" speed="11.11" length="142.80" shape="271.60,277.20 271.60,420.00"/>
+    </edge>
+    <edge id="N_SM__J_SM_RSP" from="N_SM" to="J_SM_RSP" name="San Martín" priority="3">
+        <lane id="N_SM__J_SM_RSP_0" index="0" speed="13.89" length="142.80" shape="145.20,420.00 145.20,277.20"/>
+        <lane id="N_SM__J_SM_RSP_1" index="1" speed="13.89" length="142.80" shape="148.40,420.00 148.40,277.20"/>
+    </edge>
+    <edge id="N_TB__J_TB_RSP" from="N_TB" to="J_TB_RSP" name="Taboada" priority="2">
+        <lane id="N_TB__J_TB_RSP_0" index="0" speed="11.11" length="142.80" shape="268.40,420.00 268.40,277.20"/>
+    </edge>
+    <edge id="S_SM__J_SM_ESP" from="S_SM" to="J_SM_ESP" name="San Martín" priority="3">
+        <lane id="S_SM__J_SM_ESP_0" index="0" speed="13.89" length="142.80" shape="154.80,0.00 154.80,142.80"/>
+        <lane id="S_SM__J_SM_ESP_1" index="1" speed="13.89" length="142.80" shape="151.60,0.00 151.60,142.80"/>
+    </edge>
+    <edge id="S_TB__J_TB_ESP" from="S_TB" to="J_TB_ESP" name="Taboada" priority="2">
+        <lane id="S_TB__J_TB_ESP_0" index="0" speed="11.11" length="142.80" shape="271.60,0.00 271.60,142.80"/>
+    </edge>
+    <edge id="W_ESP__J_SM_ESP" from="W_ESP" to="J_SM_ESP" name="España" priority="2">
+        <lane id="W_ESP__J_SM_ESP_0" index="0" speed="11.11" length="139.60" shape="0.00,148.40 139.60,148.40"/>
+    </edge>
+    <edge id="W_RSP__J_SM_RSP" from="W_RSP" to="J_SM_RSP" name="Roque Sáenz Peña" priority="2">
+        <lane id="W_RSP__J_SM_RSP_0" index="0" speed="11.11" length="139.60" shape="0.00,268.40 139.60,268.40"/>
+    </edge>
+
+    <tlLogic id="J_SM_ESP" type="static" programID="0" offset="0">
+        <phase duration="42" state="GGGgrrrGGGgrrr"/>
+        <phase duration="3"  state="yyyyrrryyyyrrr"/>
+        <phase duration="42" state="rrrrGGgrrrrGGg"/>
+        <phase duration="3"  state="rrrryyyrrrryyy"/>
+    </tlLogic>
+    <tlLogic id="J_SM_RSP" type="static" programID="0" offset="0">
+        <phase duration="42" state="GGGgrrrGGGgrrr"/>
+        <phase duration="3"  state="yyyyrrryyyyrrr"/>
+        <phase duration="42" state="rrrrGGgrrrrGGg"/>
+        <phase duration="3"  state="rrrryyyrrrryyy"/>
+    </tlLogic>
+    <tlLogic id="J_TB_ESP" type="static" programID="0" offset="0">
+        <phase duration="42" state="GGgrrrGGgrrr"/>
+        <phase duration="3"  state="yyyrrryyyrrr"/>
+        <phase duration="42" state="rrrGGgrrrGGg"/>
+        <phase duration="3"  state="rrryyyrrryyy"/>
+    </tlLogic>
+    <tlLogic id="J_TB_RSP" type="static" programID="0" offset="0">
+        <phase duration="42" state="GGgrrrGGgrrr"/>
+        <phase duration="3"  state="yyyrrryyyrrr"/>
+        <phase duration="42" state="rrrGGgrrrGGg"/>
+        <phase duration="3"  state="rrryyyrrryyy"/>
+    </tlLogic>
+
+    <junction id="E_ESP" type="dead_end" x="420.00" y="150.00" incLanes="J_TB_ESP__E_ESP_0" intLanes="" shape="420.00,150.00 420.00,146.80 420.00,150.00"/>
+    <junction id="E_RSP" type="dead_end" x="420.00" y="270.00" incLanes="J_TB_RSP__E_RSP_0" intLanes="" shape="420.00,270.00 420.00,266.80 420.00,270.00"/>
+    <junction id="J_SM_ESP" type="traffic_light" x="150.00" y="150.00" incLanes="J_SM_RSP__J_SM_ESP_0 J_SM_RSP__J_SM_ESP_1 J_TB_ESP__J_SM_ESP_0 S_SM__J_SM_ESP_0 S_SM__J_SM_ESP_1 W_ESP__J_SM_ESP_0" intLanes=":J_SM_ESP_0_0 :J_SM_ESP_1_0 :J_SM_ESP_1_1 :J_SM_ESP_14_0 :J_SM_ESP_4_0 :J_SM_ESP_5_0 :J_SM_ESP_15_0 :J_SM_ESP_7_0 :J_SM_ESP_8_0 :J_SM_ESP_8_1 :J_SM_ESP_16_0 :J_SM_ESP_11_0 :J_SM_ESP_12_0 :J_SM_ESP_17_0" shape="143.60,157.20 156.40,157.20 156.84,154.98 157.40,154.20 158.18,153.64 159.18,153.31 160.40,153.20 160.40,146.80 158.18,146.36 157.40,145.80 156.84,145.02 156.51,144.02 156.40,142.80 143.60,142.80 143.16,145.02 142.60,145.80 141.82,146.36 140.82,146.69 139.60,146.80 139.60,153.20 141.82,153.64 142.60,154.20 143.16,154.98 143.49,155.98">
+        <request index="0"  response="00000000000000" foes="00010000100000" cont="0"/>
+        <request index="1"  response="10000000000000" foes="11110001100000" cont="0"/>
+        <request index="2"  response="10000001000000" foes="11110001100000" cont="0"/>
+        <request index="3"  response="10001111000000" foes="11001111100000" cont="1"/>
+        <request index="4"  response="00001100000000" foes="00001100000000" cont="0"/>
+        <request index="5"  response="00011100001111" foes="10011100001111" cont="0"/>
+        <request index="6"  response="01011100001110" foes="01011100001110" cont="1"/>
+        <request index="7"  response="00000000000000" foes="01000000001000" cont="0"/>
+        <request index="8"  response="00000001000000" foes="11000001111000" cont="0"/>
+        <request index="9"  response="10000001000000" foes="11000001111000" cont="0"/>
+        <request index="10" response="10000001000111" foes="11000001100111" cont="1"/>
+        <request index="11" response="00000000000110" foes="00000000000110" cont="0"/>
+        <request index="12" response="00011110001110" foes="00011111001110" cont="0"/>
+        <request index="13" response="00011100101110" foes="00011100101110" cont="1"/>
+    </junction>
+    <junction id="J_SM_RSP" type="traffic_light" x="150.00" y="270.00" incLanes="N_SM__J_SM_RSP_0 N_SM__J_SM_RSP_1 J_TB_RSP__J_SM_RSP_0 J_SM_ESP__J_SM_RSP_0 J_SM_ESP__J_SM_RSP_1 W_RSP__J_SM_RSP_0" intLanes=":J_SM_RSP_0_0 :J_SM_RSP_1_0 :J_SM_RSP_1_1 :J_SM_RSP_14_0 :J_SM_RSP_4_0 :J_SM_RSP_5_0 :J_SM_RSP_15_0 :J_SM_RSP_7_0 :J_SM_RSP_8_0 :J_SM_RSP_8_1 :J_SM_RSP_16_0 :J_SM_RSP_11_0 :J_SM_RSP_12_0 :J_SM_RSP_17_0" shape="143.60,277.20 156.40,277.20 156.84,274.98 157.40,274.20 158.18,273.64 159.18,273.31 160.40,273.20 160.40,266.80 158.18,266.36 157.40,265.80 156.84,265.02 156.51,264.02 156.40,262.80 143.60,262.80 143.16,265.02 142.60,265.80 141.82,266.36 140.82,266.69 139.60,266.80 139.60,273.20 141.82,273.64 142.60,274.20 143.16,274.98 143.49,275.98">
+        <request index="0"  response="00000000000000" foes="00010000100000" cont="0"/>
+        <request index="1"  response="10000000000000" foes="11110001100000" cont="0"/>
+        <request index="2"  response="10000001000000" foes="11110001100000" cont="0"/>
+        <request index="3"  response="10001111000000" foes="11001111100000" cont="1"/>
+        <request index="4"  response="00001100000000" foes="00001100000000" cont="0"/>
+        <request index="5"  response="00011100001111" foes="10011100001111" cont="0"/>
+        <request index="6"  response="01011100001110" foes="01011100001110" cont="1"/>
+        <request index="7"  response="00000000000000" foes="01000000001000" cont="0"/>
+        <request index="8"  response="00000001000000" foes="11000001111000" cont="0"/>
+        <request index="9"  response="10000001000000" foes="11000001111000" cont="0"/>
+        <request index="10" response="10000001000111" foes="11000001100111" cont="1"/>
+        <request index="11" response="00000000000110" foes="00000000000110" cont="0"/>
+        <request index="12" response="00011110001110" foes="00011111001110" cont="0"/>
+        <request index="13" response="00011100101110" foes="00011100101110" cont="1"/>
+    </junction>
+    <junction id="J_TB_ESP" type="traffic_light" x="270.00" y="150.00" incLanes="J_TB_RSP__J_TB_ESP_0 E_ESP__J_TB_ESP_0 S_TB__J_TB_ESP_0 J_SM_ESP__J_TB_ESP_0" intLanes=":J_TB_ESP_0_0 :J_TB_ESP_1_0 :J_TB_ESP_12_0 :J_TB_ESP_3_0 :J_TB_ESP_4_0 :J_TB_ESP_13_0 :J_TB_ESP_6_0 :J_TB_ESP_7_0 :J_TB_ESP_14_0 :J_TB_ESP_9_0 :J_TB_ESP_10_0 :J_TB_ESP_15_0" shape="266.80,157.20 273.20,157.20 273.64,154.98 274.20,154.20 274.98,153.64 275.98,153.31 277.20,153.20 277.20,146.80 274.98,146.36 274.20,145.80 273.64,145.02 273.31,144.02 273.20,142.80 266.80,142.80 266.36,145.02 265.80,145.80 265.02,146.36 264.02,146.69 262.80,146.80 262.80,153.20 265.02,153.64 265.80,154.20 266.36,154.98 266.69,155.98">
+        <request index="0"  response="000000000000" foes="000100010000" cont="0"/>
+        <request index="1"  response="100000100000" foes="111100110000" cont="0"/>
+        <request index="2"  response="100111100000" foes="110111110000" cont="1"/>
+        <request index="3"  response="000010000000" foes="100010000000" cont="0"/>
+        <request index="4"  response="000110000111" foes="100110000111" cont="0"/>
+        <request index="5"  response="111110000110" foes="111110000110" cont="1"/>
+        <request index="6"  response="000000000000" foes="010000000100" cont="0"/>
+        <request index="7"  response="100000100000" foes="110000111100" cont="0"/>
+        <request index="8"  response="100000100011" foes="110000110111" cont="1"/>
+        <request index="9"  response="000000000010" foes="000000100010" cont="0"/>
+        <request index="10" response="000111000110" foes="000111100110" cont="0"/>
+        <request index="11" response="000110011110" foes="000110111110" cont="1"/>
+    </junction>
+    <junction id="J_TB_RSP" type="traffic_light" x="270.00" y="270.00" incLanes="N_TB__J_TB_RSP_0 E_RSP__J_TB_RSP_0 J_TB_ESP__J_TB_RSP_0 J_SM_RSP__J_TB_RSP_0" intLanes=":J_TB_RSP_0_0 :J_TB_RSP_1_0 :J_TB_RSP_12_0 :J_TB_RSP_3_0 :J_TB_RSP_4_0 :J_TB_RSP_13_0 :J_TB_RSP_6_0 :J_TB_RSP_7_0 :J_TB_RSP_14_0 :J_TB_RSP_9_0 :J_TB_RSP_10_0 :J_TB_RSP_15_0" shape="266.80,277.20 273.20,277.20 273.64,274.98 274.20,274.20 274.98,273.64 275.98,273.31 277.20,273.20 277.20,266.80 274.98,266.36 274.20,265.80 273.64,265.02 273.31,264.02 273.20,262.80 266.80,262.80 266.36,265.02 265.80,265.80 265.02,266.36 264.02,266.69 262.80,266.80 262.80,273.20 265.02,273.64 265.80,274.20 266.36,274.98 266.69,275.98">
+        <request index="0"  response="000000000000" foes="000100010000" cont="0"/>
+        <request index="1"  response="100000100000" foes="111100110000" cont="0"/>
+        <request index="2"  response="100011100000" foes="110111110000" cont="1"/>
+        <request index="3"  response="000010000000" foes="100010000000" cont="0"/>
+        <request index="4"  response="000110000111" foes="100110000111" cont="0"/>
+        <request index="5"  response="111110000110" foes="111110000110" cont="1"/>
+        <request index="6"  response="000000000000" foes="010000000100" cont="0"/>
+        <request index="7"  response="100000100000" foes="110000111100" cont="0"/>
+        <request index="8"  response="100000100111" foes="110000110111" cont="1"/>
+        <request index="9"  response="000000000010" foes="000000100010" cont="0"/>
+        <request index="10" response="000111000110" foes="000111100110" cont="0"/>
+        <request index="11" response="000110011110" foes="000110111110" cont="1"/>
+    </junction>
+    <junction id="N_SM" type="dead_end" x="150.00" y="420.00" incLanes="J_SM_RSP__N_SM_0 J_SM_RSP__N_SM_1" intLanes="" shape="150.00,420.00 156.40,420.00 150.00,420.00"/>
+    <junction id="N_TB" type="dead_end" x="270.00" y="420.00" incLanes="J_TB_RSP__N_TB_0" intLanes="" shape="270.00,420.00 273.20,420.00 270.00,420.00"/>
+    <junction id="S_SM" type="dead_end" x="150.00" y="0.00" incLanes="J_SM_ESP__S_SM_0 J_SM_ESP__S_SM_1" intLanes="" shape="150.00,0.00 143.60,0.00 150.00,0.00"/>
+    <junction id="S_TB" type="dead_end" x="270.00" y="0.00" incLanes="J_TB_ESP__S_TB_0" intLanes="" shape="270.00,0.00 266.80,0.00 270.00,0.00"/>
+    <junction id="W_ESP" type="dead_end" x="0.00" y="150.00" incLanes="J_SM_ESP__W_ESP_0" intLanes="" shape="0.00,150.00 0.00,153.20 0.00,150.00"/>
+    <junction id="W_RSP" type="dead_end" x="0.00" y="270.00" incLanes="J_SM_RSP__W_RSP_0" intLanes="" shape="0.00,270.00 0.00,273.20 0.00,270.00"/>
+
+    <junction id=":J_SM_ESP_14_0" type="internal" x="149.11" y="153.56" incLanes=":J_SM_ESP_3_0 S_SM__J_SM_ESP_0 S_SM__J_SM_ESP_1" intLanes=":J_SM_ESP_5_0 :J_SM_ESP_6_0 :J_SM_ESP_7_0 :J_SM_ESP_8_0 :J_SM_ESP_8_1 :J_SM_ESP_12_0 :J_SM_ESP_13_0"/>
+    <junction id=":J_SM_ESP_15_0" type="internal" x="154.89" y="150.94" incLanes=":J_SM_ESP_6_0 W_ESP__J_SM_ESP_0" intLanes=":J_SM_ESP_1_0 :J_SM_ESP_1_1 :J_SM_ESP_3_0 :J_SM_ESP_8_0 :J_SM_ESP_8_1 :J_SM_ESP_10_0 :J_SM_ESP_11_0 :J_SM_ESP_12_0"/>
+    <junction id=":J_SM_ESP_16_0" type="internal" x="150.89" y="146.44" incLanes=":J_SM_ESP_10_0 J_SM_RSP__J_SM_ESP_0 J_SM_RSP__J_SM_ESP_1" intLanes=":J_SM_ESP_0_0 :J_SM_ESP_1_0 :J_SM_ESP_1_1 :J_SM_ESP_5_0 :J_SM_ESP_6_0 :J_SM_ESP_12_0 :J_SM_ESP_13_0"/>
+    <junction id=":J_SM_ESP_17_0" type="internal" x="145.11" y="149.06" incLanes=":J_SM_ESP_13_0 J_TB_ESP__J_SM_ESP_0" intLanes=":J_SM_ESP_1_0 :J_SM_ESP_1_1 :J_SM_ESP_3_0 :J_SM_ESP_4_0 :J_SM_ESP_5_0 :J_SM_ESP_8_0 :J_SM_ESP_8_1 :J_SM_ESP_10_0"/>
+    <junction id=":J_SM_RSP_14_0" type="internal" x="149.11" y="273.56" incLanes=":J_SM_RSP_3_0 J_SM_ESP__J_SM_RSP_0 J_SM_ESP__J_SM_RSP_1" intLanes=":J_SM_RSP_5_0 :J_SM_RSP_6_0 :J_SM_RSP_7_0 :J_SM_RSP_8_0 :J_SM_RSP_8_1 :J_SM_RSP_12_0 :J_SM_RSP_13_0"/>
+    <junction id=":J_SM_RSP_15_0" type="internal" x="154.89" y="270.94" incLanes=":J_SM_RSP_6_0 W_RSP__J_SM_RSP_0" intLanes=":J_SM_RSP_1_0 :J_SM_RSP_1_1 :J_SM_RSP_3_0 :J_SM_RSP_8_0 :J_SM_RSP_8_1 :J_SM_RSP_10_0 :J_SM_RSP_11_0 :J_SM_RSP_12_0"/>
+    <junction id=":J_SM_RSP_16_0" type="internal" x="150.89" y="266.44" incLanes=":J_SM_RSP_10_0 N_SM__J_SM_RSP_0 N_SM__J_SM_RSP_1" intLanes=":J_SM_RSP_0_0 :J_SM_RSP_1_0 :J_SM_RSP_1_1 :J_SM_RSP_5_0 :J_SM_RSP_6_0 :J_SM_RSP_12_0 :J_SM_RSP_13_0"/>
+    <junction id=":J_SM_RSP_17_0" type="internal" x="145.11" y="269.06" incLanes=":J_SM_RSP_13_0 J_TB_RSP__J_SM_RSP_0" intLanes=":J_SM_RSP_1_0 :J_SM_RSP_1_1 :J_SM_RSP_3_0 :J_SM_RSP_4_0 :J_SM_RSP_5_0 :J_SM_RSP_8_0 :J_SM_RSP_8_1 :J_SM_RSP_10_0"/>
+    <junction id=":J_TB_ESP_12_0" type="internal" x="269.04" y="153.20" incLanes=":J_TB_ESP_2_0 S_TB__J_TB_ESP_0" intLanes=":J_TB_ESP_4_0 :J_TB_ESP_5_0 :J_TB_ESP_6_0 :J_TB_ESP_7_0 :J_TB_ESP_10_0 :J_TB_ESP_11_0"/>
+    <junction id=":J_TB_ESP_13_0" type="internal" x="273.20" y="150.96" incLanes=":J_TB_ESP_5_0 J_SM_ESP__J_TB_ESP_0" intLanes=":J_TB_ESP_1_0 :J_TB_ESP_2_0 :J_TB_ESP_7_0 :J_TB_ESP_8_0 :J_TB_ESP_9_0 :J_TB_ESP_10_0"/>
+    <junction id=":J_TB_ESP_14_0" type="internal" x="270.96" y="146.80" incLanes=":J_TB_ESP_8_0 J_TB_RSP__J_TB_ESP_0" intLanes=":J_TB_ESP_0_0 :J_TB_ESP_1_0 :J_TB_ESP_4_0 :J_TB_ESP_5_0 :J_TB_ESP_10_0 :J_TB_ESP_11_0"/>
+    <junction id=":J_TB_ESP_15_0" type="internal" x="266.80" y="149.04" incLanes=":J_TB_ESP_11_0 E_ESP__J_TB_ESP_0" intLanes=":J_TB_ESP_1_0 :J_TB_ESP_2_0 :J_TB_ESP_3_0 :J_TB_ESP_4_0 :J_TB_ESP_7_0 :J_TB_ESP_8_0"/>
+    <junction id=":J_TB_RSP_12_0" type="internal" x="269.04" y="273.20" incLanes=":J_TB_RSP_2_0 J_TB_ESP__J_TB_RSP_0" intLanes=":J_TB_RSP_4_0 :J_TB_RSP_5_0 :J_TB_RSP_6_0 :J_TB_RSP_7_0 :J_TB_RSP_10_0 :J_TB_RSP_11_0"/>
+    <junction id=":J_TB_RSP_13_0" type="internal" x="273.20" y="270.96" incLanes=":J_TB_RSP_5_0 J_SM_RSP__J_TB_RSP_0" intLanes=":J_TB_RSP_1_0 :J_TB_RSP_2_0 :J_TB_RSP_7_0 :J_TB_RSP_8_0 :J_TB_RSP_9_0 :J_TB_RSP_10_0"/>
+    <junction id=":J_TB_RSP_14_0" type="internal" x="270.96" y="266.80" incLanes=":J_TB_RSP_8_0 N_TB__J_TB_RSP_0" intLanes=":J_TB_RSP_0_0 :J_TB_RSP_1_0 :J_TB_RSP_4_0 :J_TB_RSP_5_0 :J_TB_RSP_10_0 :J_TB_RSP_11_0"/>
+    <junction id=":J_TB_RSP_15_0" type="internal" x="266.80" y="269.04" incLanes=":J_TB_RSP_11_0 E_RSP__J_TB_RSP_0" intLanes=":J_TB_RSP_1_0 :J_TB_RSP_2_0 :J_TB_RSP_3_0 :J_TB_RSP_4_0 :J_TB_RSP_7_0 :J_TB_RSP_8_0"/>
+
+    <connection from="E_ESP__J_TB_ESP" to="J_TB_ESP__J_TB_RSP" fromLane="0" toLane="0" via=":J_TB_ESP_3_0" tl="J_TB_ESP" linkIndex="3" dir="r" state="o"/>
+    <connection from="E_ESP__J_TB_ESP" to="J_TB_ESP__J_SM_ESP" fromLane="0" toLane="0" via=":J_TB_ESP_4_0" tl="J_TB_ESP" linkIndex="4" dir="s" state="o"/>
+    <connection from="E_ESP__J_TB_ESP" to="J_TB_ESP__S_TB" fromLane="0" toLane="0" via=":J_TB_ESP_5_0" tl="J_TB_ESP" linkIndex="5" dir="l" state="o"/>
+    <connection from="E_RSP__J_TB_RSP" to="J_TB_RSP__N_TB" fromLane="0" toLane="0" via=":J_TB_RSP_3_0" tl="J_TB_RSP" linkIndex="3" dir="r" state="o"/>
+    <connection from="E_RSP__J_TB_RSP" to="J_TB_RSP__J_SM_RSP" fromLane="0" toLane="0" via=":J_TB_RSP_4_0" tl="J_TB_RSP" linkIndex="4" dir="s" state="o"/>
+    <connection from="E_RSP__J_TB_RSP" to="J_TB_RSP__J_TB_ESP" fromLane="0" toLane="0" via=":J_TB_RSP_5_0" tl="J_TB_RSP" linkIndex="5" dir="l" state="o"/>
+    <connection from="J_SM_ESP__J_SM_RSP" to="J_SM_RSP__J_TB_RSP" fromLane="0" toLane="0" via=":J_SM_RSP_7_0" tl="J_SM_RSP" linkIndex="7" dir="r" state="O"/>
+    <connection from="J_SM_ESP__J_SM_RSP" to="J_SM_RSP__N_SM" fromLane="0" toLane="0" via=":J_SM_RSP_8_0" tl="J_SM_RSP" linkIndex="8" dir="s" state="O"/>
+    <connection from="J_SM_ESP__J_SM_RSP" to="J_SM_RSP__N_SM" fromLane="1" toLane="1" via=":J_SM_RSP_8_1" tl="J_SM_RSP" linkIndex="9" dir="s" state="O"/>
+    <connection from="J_SM_ESP__J_SM_RSP" to="J_SM_RSP__W_RSP" fromLane="1" toLane="0" via=":J_SM_RSP_10_0" tl="J_SM_RSP" linkIndex="10" dir="l" state="o"/>
+    <connection from="J_SM_ESP__J_TB_ESP" to="J_TB_ESP__S_TB" fromLane="0" toLane="0" via=":J_TB_ESP_9_0" tl="J_TB_ESP" linkIndex="9" dir="r" state="o"/>
+    <connection from="J_SM_ESP__J_TB_ESP" to="J_TB_ESP__E_ESP" fromLane="0" toLane="0" via=":J_TB_ESP_10_0" tl="J_TB_ESP" linkIndex="10" dir="s" state="o"/>
+    <connection from="J_SM_ESP__J_TB_ESP" to="J_TB_ESP__J_TB_RSP" fromLane="0" toLane="0" via=":J_TB_ESP_11_0" tl="J_TB_ESP" linkIndex="11" dir="l" state="o"/>
+    <connection from="J_SM_RSP__J_SM_ESP" to="J_SM_ESP__W_ESP" fromLane="0" toLane="0" via=":J_SM_ESP_0_0" tl="J_SM_ESP" linkIndex="0" dir="r" state="O"/>
+    <connection from="J_SM_RSP__J_SM_ESP" to="J_SM_ESP__S_SM" fromLane="0" toLane="0" via=":J_SM_ESP_1_0" tl="J_SM_ESP" linkIndex="1" dir="s" state="O"/>
+    <connection from="J_SM_RSP__J_SM_ESP" to="J_SM_ESP__S_SM" fromLane="1" toLane="1" via=":J_SM_ESP_1_1" tl="J_SM_ESP" linkIndex="2" dir="s" state="O"/>
+    <connection from="J_SM_RSP__J_SM_ESP" to="J_SM_ESP__J_TB_ESP" fromLane="1" toLane="0" via=":J_SM_ESP_3_0" tl="J_SM_ESP" linkIndex="3" dir="l" state="o"/>
+    <connection from="J_SM_RSP__J_TB_RSP" to="J_TB_RSP__J_TB_ESP" fromLane="0" toLane="0" via=":J_TB_RSP_9_0" tl="J_TB_RSP" linkIndex="9" dir="r" state="o"/>
+    <connection from="J_SM_RSP__J_TB_RSP" to="J_TB_RSP__E_RSP" fromLane="0" toLane="0" via=":J_TB_RSP_10_0" tl="J_TB_RSP" linkIndex="10" dir="s" state="o"/>
+    <connection from="J_SM_RSP__J_TB_RSP" to="J_TB_RSP__N_TB" fromLane="0" toLane="0" via=":J_TB_RSP_11_0" tl="J_TB_RSP" linkIndex="11" dir="l" state="o"/>
+    <connection from="J_TB_ESP__J_SM_ESP" to="J_SM_ESP__J_SM_RSP" fromLane="0" toLane="0" via=":J_SM_ESP_4_0" tl="J_SM_ESP" linkIndex="4" dir="r" state="o"/>
+    <connection from="J_TB_ESP__J_SM_ESP" to="J_SM_ESP__W_ESP" fromLane="0" toLane="0" via=":J_SM_ESP_5_0" tl="J_SM_ESP" linkIndex="5" dir="s" state="o"/>
+    <connection from="J_TB_ESP__J_SM_ESP" to="J_SM_ESP__S_SM" fromLane="0" toLane="1" via=":J_SM_ESP_6_0" tl="J_SM_ESP" linkIndex="6" dir="l" state="o"/>
+    <connection from="J_TB_ESP__J_TB_RSP" to="J_TB_RSP__E_RSP" fromLane="0" toLane="0" via=":J_TB_RSP_6_0" tl="J_TB_RSP" linkIndex="6" dir="r" state="O"/>
+    <connection from="J_TB_ESP__J_TB_RSP" to="J_TB_RSP__N_TB" fromLane="0" toLane="0" via=":J_TB_RSP_7_0" tl="J_TB_RSP" linkIndex="7" dir="s" state="O"/>
+    <connection from="J_TB_ESP__J_TB_RSP" to="J_TB_RSP__J_SM_RSP" fromLane="0" toLane="0" via=":J_TB_RSP_8_0" tl="J_TB_RSP" linkIndex="8" dir="l" state="o"/>
+    <connection from="J_TB_RSP__J_SM_RSP" to="J_SM_RSP__N_SM" fromLane="0" toLane="0" via=":J_SM_RSP_4_0" tl="J_SM_RSP" linkIndex="4" dir="r" state="o"/>
+    <connection from="J_TB_RSP__J_SM_RSP" to="J_SM_RSP__W_RSP" fromLane="0" toLane="0" via=":J_SM_RSP_5_0" tl="J_SM_RSP" linkIndex="5" dir="s" state="o"/>
+    <connection from="J_TB_RSP__J_SM_RSP" to="J_SM_RSP__J_SM_ESP" fromLane="0" toLane="1" via=":J_SM_RSP_6_0" tl="J_SM_RSP" linkIndex="6" dir="l" state="o"/>
+    <connection from="J_TB_RSP__J_TB_ESP" to="J_TB_ESP__J_SM_ESP" fromLane="0" toLane="0" via=":J_TB_ESP_0_0" tl="J_TB_ESP" linkIndex="0" dir="r" state="O"/>
+    <connection from="J_TB_RSP__J_TB_ESP" to="J_TB_ESP__S_TB" fromLane="0" toLane="0" via=":J_TB_ESP_1_0" tl="J_TB_ESP" linkIndex="1" dir="s" state="O"/>
+    <connection from="J_TB_RSP__J_TB_ESP" to="J_TB_ESP__E_ESP" fromLane="0" toLane="0" via=":J_TB_ESP_2_0" tl="J_TB_ESP" linkIndex="2" dir="l" state="o"/>
+    <connection from="N_SM__J_SM_RSP" to="J_SM_RSP__W_RSP" fromLane="0" toLane="0" via=":J_SM_RSP_0_0" tl="J_SM_RSP" linkIndex="0" dir="r" state="O"/>
+    <connection from="N_SM__J_SM_RSP" to="J_SM_RSP__J_SM_ESP" fromLane="0" toLane="0" via=":J_SM_RSP_1_0" tl="J_SM_RSP" linkIndex="1" dir="s" state="O"/>
+    <connection from="N_SM__J_SM_RSP" to="J_SM_RSP__J_SM_ESP" fromLane="1" toLane="1" via=":J_SM_RSP_1_1" tl="J_SM_RSP" linkIndex="2" dir="s" state="O"/>
+    <connection from="N_SM__J_SM_RSP" to="J_SM_RSP__J_TB_RSP" fromLane="1" toLane="0" via=":J_SM_RSP_3_0" tl="J_SM_RSP" linkIndex="3" dir="l" state="o"/>
+    <connection from="N_TB__J_TB_RSP" to="J_TB_RSP__J_SM_RSP" fromLane="0" toLane="0" via=":J_TB_RSP_0_0" tl="J_TB_RSP" linkIndex="0" dir="r" state="O"/>
+    <connection from="N_TB__J_TB_RSP" to="J_TB_RSP__J_TB_ESP" fromLane="0" toLane="0" via=":J_TB_RSP_1_0" tl="J_TB_RSP" linkIndex="1" dir="s" state="O"/>
+    <connection from="N_TB__J_TB_RSP" to="J_TB_RSP__E_RSP" fromLane="0" toLane="0" via=":J_TB_RSP_2_0" tl="J_TB_RSP" linkIndex="2" dir="l" state="o"/>
+    <connection from="S_SM__J_SM_ESP" to="J_SM_ESP__J_TB_ESP" fromLane="0" toLane="0" via=":J_SM_ESP_7_0" tl="J_SM_ESP" linkIndex="7" dir="r" state="O"/>
+    <connection from="S_SM__J_SM_ESP" to="J_SM_ESP__J_SM_RSP" fromLane="0" toLane="0" via=":J_SM_ESP_8_0" tl="J_SM_ESP" linkIndex="8" dir="s" state="O"/>
+    <connection from="S_SM__J_SM_ESP" to="J_SM_ESP__J_SM_RSP" fromLane="1" toLane="1" via=":J_SM_ESP_8_1" tl="J_SM_ESP" linkIndex="9" dir="s" state="O"/>
+    <connection from="S_SM__J_SM_ESP" to="J_SM_ESP__W_ESP" fromLane="1" toLane="0" via=":J_SM_ESP_10_0" tl="J_SM_ESP" linkIndex="10" dir="l" state="o"/>
+    <connection from="S_TB__J_TB_ESP" to="J_TB_ESP__E_ESP" fromLane="0" toLane="0" via=":J_TB_ESP_6_0" tl="J_TB_ESP" linkIndex="6" dir="r" state="O"/>
+    <connection from="S_TB__J_TB_ESP" to="J_TB_ESP__J_TB_RSP" fromLane="0" toLane="0" via=":J_TB_ESP_7_0" tl="J_TB_ESP" linkIndex="7" dir="s" state="O"/>
+    <connection from="S_TB__J_TB_ESP" to="J_TB_ESP__J_SM_ESP" fromLane="0" toLane="0" via=":J_TB_ESP_8_0" tl="J_TB_ESP" linkIndex="8" dir="l" state="o"/>
+    <connection from="W_ESP__J_SM_ESP" to="J_SM_ESP__S_SM" fromLane="0" toLane="0" via=":J_SM_ESP_11_0" tl="J_SM_ESP" linkIndex="11" dir="r" state="o"/>
+    <connection from="W_ESP__J_SM_ESP" to="J_SM_ESP__J_TB_ESP" fromLane="0" toLane="0" via=":J_SM_ESP_12_0" tl="J_SM_ESP" linkIndex="12" dir="s" state="o"/>
+    <connection from="W_ESP__J_SM_ESP" to="J_SM_ESP__J_SM_RSP" fromLane="0" toLane="1" via=":J_SM_ESP_13_0" tl="J_SM_ESP" linkIndex="13" dir="l" state="o"/>
+    <connection from="W_RSP__J_SM_RSP" to="J_SM_RSP__J_SM_ESP" fromLane="0" toLane="0" via=":J_SM_RSP_11_0" tl="J_SM_RSP" linkIndex="11" dir="r" state="o"/>
+    <connection from="W_RSP__J_SM_RSP" to="J_SM_RSP__J_TB_RSP" fromLane="0" toLane="0" via=":J_SM_RSP_12_0" tl="J_SM_RSP" linkIndex="12" dir="s" state="o"/>
+    <connection from="W_RSP__J_SM_RSP" to="J_SM_RSP__N_SM" fromLane="0" toLane="1" via=":J_SM_RSP_13_0" tl="J_SM_RSP" linkIndex="13" dir="l" state="o"/>
+
+    <connection from=":J_SM_ESP_0" to="J_SM_ESP__W_ESP" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J_SM_ESP_1" to="J_SM_ESP__S_SM" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J_SM_ESP_1" to="J_SM_ESP__S_SM" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":J_SM_ESP_3" to="J_SM_ESP__J_TB_ESP" fromLane="0" toLane="0" via=":J_SM_ESP_14_0" dir="l" state="m"/>
+    <connection from=":J_SM_ESP_14" to="J_SM_ESP__J_TB_ESP" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J_SM_ESP_4" to="J_SM_ESP__J_SM_RSP" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J_SM_ESP_5" to="J_SM_ESP__W_ESP" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J_SM_ESP_6" to="J_SM_ESP__S_SM" fromLane="0" toLane="1" via=":J_SM_ESP_15_0" dir="l" state="m"/>
+    <connection from=":J_SM_ESP_15" to="J_SM_ESP__S_SM" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":J_SM_ESP_7" to="J_SM_ESP__J_TB_ESP" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J_SM_ESP_8" to="J_SM_ESP__J_SM_RSP" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J_SM_ESP_8" to="J_SM_ESP__J_SM_RSP" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":J_SM_ESP_10" to="J_SM_ESP__W_ESP" fromLane="0" toLane="0" via=":J_SM_ESP_16_0" dir="l" state="m"/>
+    <connection from=":J_SM_ESP_16" to="J_SM_ESP__W_ESP" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J_SM_ESP_11" to="J_SM_ESP__S_SM" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J_SM_ESP_12" to="J_SM_ESP__J_TB_ESP" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J_SM_ESP_13" to="J_SM_ESP__J_SM_RSP" fromLane="0" toLane="1" via=":J_SM_ESP_17_0" dir="l" state="m"/>
+    <connection from=":J_SM_ESP_17" to="J_SM_ESP__J_SM_RSP" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":J_SM_RSP_0" to="J_SM_RSP__W_RSP" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J_SM_RSP_1" to="J_SM_RSP__J_SM_ESP" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J_SM_RSP_1" to="J_SM_RSP__J_SM_ESP" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":J_SM_RSP_3" to="J_SM_RSP__J_TB_RSP" fromLane="0" toLane="0" via=":J_SM_RSP_14_0" dir="l" state="m"/>
+    <connection from=":J_SM_RSP_14" to="J_SM_RSP__J_TB_RSP" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J_SM_RSP_4" to="J_SM_RSP__N_SM" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J_SM_RSP_5" to="J_SM_RSP__W_RSP" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J_SM_RSP_6" to="J_SM_RSP__J_SM_ESP" fromLane="0" toLane="1" via=":J_SM_RSP_15_0" dir="l" state="m"/>
+    <connection from=":J_SM_RSP_15" to="J_SM_RSP__J_SM_ESP" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":J_SM_RSP_7" to="J_SM_RSP__J_TB_RSP" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J_SM_RSP_8" to="J_SM_RSP__N_SM" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J_SM_RSP_8" to="J_SM_RSP__N_SM" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":J_SM_RSP_10" to="J_SM_RSP__W_RSP" fromLane="0" toLane="0" via=":J_SM_RSP_16_0" dir="l" state="m"/>
+    <connection from=":J_SM_RSP_16" to="J_SM_RSP__W_RSP" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J_SM_RSP_11" to="J_SM_RSP__J_SM_ESP" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J_SM_RSP_12" to="J_SM_RSP__J_TB_RSP" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J_SM_RSP_13" to="J_SM_RSP__N_SM" fromLane="0" toLane="1" via=":J_SM_RSP_17_0" dir="l" state="m"/>
+    <connection from=":J_SM_RSP_17" to="J_SM_RSP__N_SM" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":J_TB_ESP_0" to="J_TB_ESP__J_SM_ESP" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J_TB_ESP_1" to="J_TB_ESP__S_TB" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J_TB_ESP_2" to="J_TB_ESP__E_ESP" fromLane="0" toLane="0" via=":J_TB_ESP_12_0" dir="l" state="m"/>
+    <connection from=":J_TB_ESP_12" to="J_TB_ESP__E_ESP" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J_TB_ESP_3" to="J_TB_ESP__J_TB_RSP" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J_TB_ESP_4" to="J_TB_ESP__J_SM_ESP" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J_TB_ESP_5" to="J_TB_ESP__S_TB" fromLane="0" toLane="0" via=":J_TB_ESP_13_0" dir="l" state="m"/>
+    <connection from=":J_TB_ESP_13" to="J_TB_ESP__S_TB" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J_TB_ESP_6" to="J_TB_ESP__E_ESP" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J_TB_ESP_7" to="J_TB_ESP__J_TB_RSP" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J_TB_ESP_8" to="J_TB_ESP__J_SM_ESP" fromLane="0" toLane="0" via=":J_TB_ESP_14_0" dir="l" state="m"/>
+    <connection from=":J_TB_ESP_14" to="J_TB_ESP__J_SM_ESP" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J_TB_ESP_9" to="J_TB_ESP__S_TB" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J_TB_ESP_10" to="J_TB_ESP__E_ESP" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J_TB_ESP_11" to="J_TB_ESP__J_TB_RSP" fromLane="0" toLane="0" via=":J_TB_ESP_15_0" dir="l" state="m"/>
+    <connection from=":J_TB_ESP_15" to="J_TB_ESP__J_TB_RSP" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J_TB_RSP_0" to="J_TB_RSP__J_SM_RSP" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J_TB_RSP_1" to="J_TB_RSP__J_TB_ESP" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J_TB_RSP_2" to="J_TB_RSP__E_RSP" fromLane="0" toLane="0" via=":J_TB_RSP_12_0" dir="l" state="m"/>
+    <connection from=":J_TB_RSP_12" to="J_TB_RSP__E_RSP" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J_TB_RSP_3" to="J_TB_RSP__N_TB" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J_TB_RSP_4" to="J_TB_RSP__J_SM_RSP" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J_TB_RSP_5" to="J_TB_RSP__J_TB_ESP" fromLane="0" toLane="0" via=":J_TB_RSP_13_0" dir="l" state="m"/>
+    <connection from=":J_TB_RSP_13" to="J_TB_RSP__J_TB_ESP" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J_TB_RSP_6" to="J_TB_RSP__E_RSP" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J_TB_RSP_7" to="J_TB_RSP__N_TB" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J_TB_RSP_8" to="J_TB_RSP__J_SM_RSP" fromLane="0" toLane="0" via=":J_TB_RSP_14_0" dir="l" state="m"/>
+    <connection from=":J_TB_RSP_14" to="J_TB_RSP__J_SM_RSP" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J_TB_RSP_9" to="J_TB_RSP__J_TB_ESP" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J_TB_RSP_10" to="J_TB_RSP__E_RSP" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J_TB_RSP_11" to="J_TB_RSP__N_TB" fromLane="0" toLane="0" via=":J_TB_RSP_15_0" dir="l" state="m"/>
+    <connection from=":J_TB_RSP_15" to="J_TB_RSP__N_TB" fromLane="0" toLane="0" dir="l" state="M"/>
+
+</net>

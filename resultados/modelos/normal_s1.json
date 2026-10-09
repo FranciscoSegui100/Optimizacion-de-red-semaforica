@@ -1,0 +1,11 @@
+{
+  "episodios": 120,
+  "alpha": 0.1,
+  "gamma": 0.9,
+  "estados_visitados": {
+    "J_SM_ESP": 9,
+    "J_SM_RSP": 9,
+    "J_TB_ESP": 8,
+    "J_TB_RSP": 9
+  }
+}
